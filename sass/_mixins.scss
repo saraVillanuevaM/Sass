@@ -1,0 +1,9 @@
+
+ /* estilo tipográfico utilizando mixins */
+
+@mixin tipografia ($size:300){
+    font-family: 'Lato', sans-serif;  
+    font-size: $size;
+    text-decoration: none;
+    color: #ffffff;
+}

@@ -1,0 +1,8 @@
+ /* loop @for desplazamiento lateral columnas */
+
+    @for $i from 0 through 5 {
+        $x: $i+1;
+        .caja:nth-child(#{$x}) {
+          left:20vw * $i;
+        }
+      }
