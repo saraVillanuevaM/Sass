@@ -106,9 +106,8 @@ body{
                 transform-origin: center center;
                 transform: skew(30deg) scaleY(1) translate(0, 0);}
             }
-    
-    /*Animación*/
-    
+       /*
+      
     @keyframes columna1 {
       0% { transform: translate3d(-100%, 0, 0);}
       100% { transform: translate3d(0, 0, 0);}
@@ -124,8 +123,10 @@ body{
     @keyframes columna4 {
       0% {transform: translate3d(0,-100,0);}
       100% { transform: translate3d(0, 0, 0);}
-    }
+    } 
+    
     @keyframes columna5 {
       0% {transform: translate3d(0, 0, 100%);}
       100% { transform: translate3d(0, 0, 0);}
     }
+*/

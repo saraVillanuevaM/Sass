@@ -6,3 +6,13 @@
           left:20vw * $i;
         }
       }
+
+  
+  @for $i from 1 through 5{
+    
+      @keyframes columna#{$i}{       
+      0% { transform: translate3d(0, 0, 0);}
+      100% { transform: translate3d(0, 0, 0);}
+    }
+
+  }
