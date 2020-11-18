@@ -7,7 +7,7 @@
         }
       }
 
-  
+   /* loop @for animación aparecen las cajas */
   @for $i from 1 through 5{
     
       @keyframes columna#{$i}{       
